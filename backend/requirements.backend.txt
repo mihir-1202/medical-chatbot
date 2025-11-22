@@ -1,0 +1,22 @@
+# Core Backend Dependencies
+fastapi==0.115.5
+uvicorn[standard]==0.34.0
+
+# LangChain (let pip resolve compatible versions)
+langchain
+langchain-community
+langchain-pinecone
+langchain-google-genai
+
+# Embeddings
+sentence-transformers
+
+# Vector Database
+pinecone
+
+# Environment
+python-dotenv
+
+# PDF Processing
+pypdf
+
