@@ -1,0 +1,32 @@
+/* Chat Container */
+.chat-container {
+    position: relative;
+    width: 45vw;
+    height: 85vh;
+    border-radius: 1rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chat-container {
+        width: 95vw;
+        height: 95vh;
+    }
+
+    .logo-section,
+    .status-section {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .chatbot-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .chatbot-text h2 {
+        font-size: 0.85rem;
+    }
+}
+

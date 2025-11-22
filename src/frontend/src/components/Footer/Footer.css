@@ -1,0 +1,93 @@
+/* Chat Footer */
+.chat-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    top: 85%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* Footer Section */
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #f1f5f9;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.input-section:focus-within {
+    /*this will be activated when any of the descendants of input-section is focused*/
+    border: 2px solid #667eea;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.input-section textarea {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 16px;
+    background-color: transparent; /*makes the input field transparent */
+    font-size: 1rem;
+    outline: none;
+    font-family: inherit;
+    line-height: 1.5;
+    overflow-y: auto;
+}
+
+.input-section button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+
+.input-section button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.input-section button:active {
+    transform: translateY(0);
+}
+
+/* Disclaimer Section */
+.disclaimer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #64748b; /* font color for the disclaimer section */
+    text-align: center;
+}
+

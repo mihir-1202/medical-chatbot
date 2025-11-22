@@ -1,0 +1,19 @@
+/* Chat Body */
+.chat-body {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    bottom: 15%;
+    padding: 30px;
+}
+
+.chat-body-messages
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
