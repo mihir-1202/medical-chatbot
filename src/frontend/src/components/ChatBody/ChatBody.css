@@ -6,6 +6,7 @@
     width: 100%;
     bottom: 15%;
     padding: 30px;
+    overflow-y: auto;
 }
 
 .chat-body-messages
